@@ -1,0 +1,20 @@
+.proo{
+    font-size: 25px;
+}
+.btn-lg{
+    height: 50px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: orange; 
+}
+
+.sahi-mobile{
+    width:270px;
+    max-height:470px;
+}
+
+.sahi-lappy{
+    max-width:100%;
+    height:400px;
+}

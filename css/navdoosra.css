@@ -1,0 +1,14 @@
+body{
+    padding-top: 80px;
+}
+
+.navbar .navbar-brand{
+    color: orangered;
+    font-size: 40px;
+    text-shadow: 1px 1px yellowgreen;
+    margin-bottom: 0px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+}

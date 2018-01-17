@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+.aboutleft{
+  padding: 10px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  background: linear-gradient(to right, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.aboutright{
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  background: linear-gradient(to right, #a8c0ff, #3f2b96);
+}
+.about{
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  padding-left: 10px;
+}
+.container1 {
+  height: 900px;
+  max-width: 500px;
+  background: #f2f2f2;
+  margin: 0 auto;
+}
+
+.progress-bar1 {
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding-right: 24px;
+  padding-left: 12px;
+}
+
+.skill{
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.progress-title-holder {
+  padding-bottom: 0px;
+  position: relative;
+  margin: 0px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 1000;
+  color: black;  
+}
+
+.progress-title {
+  z-index: 50;
+}
+
+.progress-number-wrapper {
+  width: 100%;
+  z-index: 0;
+}
+
+.progress-number-mark {
+  margin-bottom: 0px;
+  color: black;
+  position: absolute;
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-500%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%); 
+} 
+
+.progress-number-wrapper,
+.progress-number-mark {
+  font-family: Open Sans, sans-serif;
+  color:black;
+  font-size: 13px;
+  line-height: 24px;
+  height: 15px;
+  font-weight: 1000;
+  font-style: normal;
+  text-transform: none;
+}
+
+.progress-content-outter {
+  height: 15px;
+  background-color: #ffffff;
+}
+
+.progress-orange {
+  height: 15px;
+  background-color: orange;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-blue {
+  height: 15px;
+  background-color: blue;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-red {
+  height: 15px;
+  background-color: red;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-sky {
+  height: 15px;
+  background-color: skyblue;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-violet {
+  height: 15px;
+  background-color: violet;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-yellow {
+  height: 15px;
+  background-color: yellow;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-green {
+  height: 15px;
+  background-color: green;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
+.progress-grey {
+  height: 15px;
+  background-color: grey;
+  opacity: 0.92;
+  width: 0%; /* Initial value */
+}
+
