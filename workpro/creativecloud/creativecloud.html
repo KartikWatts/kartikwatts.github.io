@@ -1,82 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="creativecloud.css" rel="stylesheet">
-    </head>
-    <body>
-    <!-- Images used to open the lightbox -->
-        <div class="row">
-            <div class="column">
-            <img src="images/creative.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
-            </div>
-            <div class="column">
-            <img src="images/donut.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
-            </div>
-            <div class="column">
-            <img src="images/dos.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/h71Zs_BD5uM" frameborder="1" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/pqn872zBAgA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4z33vcxEVy4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/18nuNAV-dGY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-        </div>
-        
-        <!-- The Modal/Lightbox -->
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-        
-            <div class="mySlides">
-                <div class="numbertext">1</div>
-                <div class="caption-container">Donuts over Coffee</div>
-                <img src="images/creative.png" style="width:100%">
-            </div>
-        
-            <div class="mySlides">
-                <div class="numbertext">2</div>
-                <img src="images/donut.png" style="width:100%">
-            </div>
-        
-            <div class="mySlides">
-                <div class="numbertext">3</div>
-                <img src="images/dos.jpg" style="width:100%">
-            </div>
-        
-            <!-- Next/previous controls -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-            <!-- Caption text -->
-            <div class="caption-container">
-                <p id="caption"></p>
-            </div>
-        
-            <!-- Thumbnail image controls -->
-            <div class="column">
-                <img class="demo" src="images/creative.png" onclick="currentSlide(1)" alt="Nature">
-            </div>
-        
-            <div class="column">
-                <img class="demo" src="images/donut.png" onclick="currentSlide(2)" alt="Trolltunga">
-            </div>
-        
-            <div class="column">
-                <img class="demo" src="images/dos.jpg" onclick="currentSlide(3)" alt="Mountains">
-            </div>
-        
-        </div>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Your site description." />
+    <title>Kartik Arora | Creative</title>
+    
+    <script src="responsive.ie10mobilefix.min.js"></script>
+    <link href="responsive.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="creativecloud.css">
 
-        <script src='creativecloud.js'></script>
-    </body>
+    <!--[if lt IE 9 &!(IEMobile)]>
+        <script src="vendor/html5shiv.min.js"></script>
+        <script src="vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="bg">
+
+    <div class="rainbow">Creative Cloud</div>
+    <div class="row no-gutter">
+        <div class="col-s-6">
+            <a href="images/creative.png" 
+                data-lightbox-title="Donuts and Coffe Mug made using Blender" 
+                data-lightbox-group="grouped">
+                <img class="small" src="images/creative.png">
+            </a>
+        </div>
+        <div class="col-s-6">
+            <a href="images/donut.png" 
+                data-lightbox-title="Donut over Coffe" 
+                data-lightbox-group="grouped">
+                <img class="small" src="images/donut.png">
+            </a>
+        </div>
+        <div class="col-s-6">
+            <a href="images/dos.jpg" 
+                data-lightbox-title="The Dictionary of Science Logo" 
+                data-lightbox-group="grouped">
+                <img class="small" src="images/dos.jpg">
+            </a>
+        </div>
+        <div class="col-s-6">
+            <a href="https://www.youtube.com/embed/4z33vcxEVy4" data-lightbox-title="Namaskaram Video made using Blender">
+                <img class="small" src="images/namaskaram.png"
+            </a>
+        </div>
+        <div class="col-s-6">
+            <a href="https://www.youtube.com/embed/pqn872zBAgA" data-lightbox-title="IITB Techfest Robowar Video from AE">
+                <img class="small" src="images/iitf.png"
+            </a>
+        </div>
+        <div class="col-s-6">
+            <a href="https://www.youtube.com/embed/h71Zs_BD5uM" data-lightbox-title="National Flag Floating made using Blender">
+                <img class="small" src="images/flag.png"
+            </a>
+        </div>
+        <div class="col-s-6">
+            <a href="https://www.youtube.com/embed/18nuNAV-dGY" data-lightbox-title="A Video for my College Club">
+                <img class="small" src="images/ss.png"
+            </a>
+        </div>
+    
+        
+    </div>
+    
+
+    <script src="vendor/jquery-2.1.0.min.js"></script>
+    <script src="responsive.min.js"></script>
+</body>
 </html>
