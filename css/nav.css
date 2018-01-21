@@ -1,6 +1,7 @@
 .navbar .container-fluid .navbar-header .navbar-brand{
+    
     color: orangered;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 1px 1px yellowgreen;
     margin-bottom: 0px;
 }

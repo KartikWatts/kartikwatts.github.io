@@ -1,7 +1,13 @@
 body{
-    padding-top: 50px;
+    padding-top: 80px;
 }
-
+.row{
+    margin-bottom: 10px;
+    margin-top:5px;
+   }
+.col-sm-2{
+    text-align: center;
+}
 .logo{
     height:100px;
     width:100px;
@@ -51,4 +57,6 @@ a:hover .logoanim {
 }
 .matter{
     color:white;
+    text-align: center;
+    margin-bottom: 15px;
 }

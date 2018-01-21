@@ -3,10 +3,11 @@
 }
 
 body{
-  padding-top: 110px;
+  padding-top: 80px;
 }
 .aboutleft{
   padding: 10px;
+  padding-top: 70px;
   border-right-style: solid;
   border-right-width: 1px;
   background: linear-gradient(to right, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -14,9 +15,10 @@ body{
 
 .aboutright{
   padding: 10px;
+  padding-top: 70px;
   border-left-style: solid;
   border-left-width: 1px;
-  background: linear-gradient(to right, #a8c0ff, #3f2b96);
+  background-color: #ffffff;
 }
 .about{
   font-family: Montserrat, sans-serif;
@@ -25,7 +27,7 @@ body{
 }
 .container1 {
   height: 900px;
-  max-width: 500px;
+  max-width: 450px;
   background: #f2f2f2;
   margin: 0 auto;
 }
