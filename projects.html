@@ -222,8 +222,10 @@
                 </div>
             </nav>
         
+            <button class="page-scroll" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
         
-        <!--PROJECTS LIST-->    
+            <!--PROJECTS LIST-->    
         <section class="bg-inverse text-white" id="extra-features">
             <div class="container">
                 <div class="row">
@@ -686,7 +688,25 @@
                     </div>
             </section>
         </div>
-
+        <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                    if (document.body.scrollTop > 1220 || document.documentElement.scrollTop > 1220) {
+                        document.getElementById("myBtn").style.display = "block";
+                    } else {
+                        document.getElementById("myBtn").style.display = "none";
+                    }
+                }
+                
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+        </script>
+                
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
