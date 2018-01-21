@@ -24,11 +24,9 @@
 
 .navbottom .container-fluid{
     text-align: center;
-    
 } 
 
 .navbottom .container-fluid .nav li a:hover{
-    
     box-shadow: 4px 8px 4px  rgba(0, 0, 0, .5);
 } 
 
