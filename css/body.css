@@ -1,5 +1,5 @@
 body{
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .row{
     margin-bottom: 10px;
@@ -39,7 +39,7 @@ a:hover .logoanim {
 
 @keyframes mymove {
     0%{height: 100px; width: 100px;}
-    50%{height: 103px; width:103px;}
+    50%{height: 97px; width:97px;}
     100%{height: 100px; width: 100px;}
 }
 @keyframes entry{
@@ -53,7 +53,7 @@ a:hover .logoanim {
     font-size: 35px;
     top: 100px; 
     width:100%;
-    padding-bottom: 80px;
+    padding-bottom: 55px;
 }
 .matter{
     color:white;
