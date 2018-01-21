@@ -9,8 +9,8 @@ body{
     text-align: center;
 }
 .logo{
-    height:100px;
-    width:100px;
+    height:95px;
+    width:95px;
     opacity: 1;
     transition: .5s ease;
 }
