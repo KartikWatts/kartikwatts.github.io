@@ -1,5 +1,5 @@
 body{
-    padding-top: 90px;
+    padding-top: 120px;
     background-image: url("../images/bgcon.jpg");
 }
 
@@ -9,6 +9,11 @@ h2 {
     color: #fff;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+}
 textarea{
     border-radius: 4px;
     background-color: #f8f8f8;
