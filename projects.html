@@ -225,7 +225,7 @@
             <button class="page-scroll" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         
-            <!--PROJECTS LIST-->    
+            <!--PROJECTS LIST--><!-- Jo bhi topmost project hoga list me, usko chorkar sabme pt-5 bhi aayega class me-->    
         <section class="bg-inverse text-white" id="extra-features">
             <div class="container">
                 <div class="row">
@@ -234,12 +234,19 @@
                         <p class="lead">
                             Built with Love. Made for Performance.
                         </p>
+                        Last Updated on: 26-April-2018
                     </div>
                 </div>
                 <div class="row d-md-flex mt-5">
                     <div class="col-sm-4 wow fadeIn">
+
+                        <a class="nav-link page-scroll" href="#vanrakshak">
+                            <h5 class="text-orange">VanRakshak <span style="color: white; font-size: 25px; margin-left: 20px;"><b>**new</b></span></h5>
+                            <p>Andriod Application made for Ministry of Environment, Forest and Climate Change in Smart India Hackathon 2018.</p>
+                        </a>
+
                         <a class="nav-link page-scroll" href="#newsfeed">
-                            <h5 class="text-orange">News Feeder</h5>
+                            <h5 class="text-orange pt-5">News Feeder</h5>
                             <p>Application for news feeding from The Hindu newspaper with infinite scroll and user friendly functions.</p>
                         </a>
 
@@ -268,8 +275,12 @@
 
 
                     <div class="col-sm-4 wow fadeIn">
+                        <a class="nav-link page-scroll" href="#modionnotear">
+                                <h5 class="text-orange">Modi-on-Note-AR <span style="color: white; font-size: 25px; margin-left: 20px;"><b>**new</b></span></h5>
+                                <p>An Augmented Reality app to convert ordinary note in Modified note using Unity and Vuforia Plugin.</p>
+                        </a>
                         <a class="nav-link page-scroll" href="#creativecloud">
-                            <h5 class="text-orange">My Creative Cloud Collection</h5>
+                            <h5 class="text-orange pt-5">My Creative Cloud Collection</h5>
                             <p>A Special Collection for all my creative videos and images created using Adobe tools, Blender etc.</p>
                         </a>
                         <a class="nav-link page-scroll" href="#moviereview">
@@ -354,6 +365,31 @@
                 </div>
             </section>
 
+            
+            <!--2 VAN RAKSHAK-->
+            <section class="bg-texture-choutha hero pt-5" id="vanrakshak">
+                    <div class="container">
+                        <div class="row d-sm-flex">
+                                <div class="col-sm-6 pt-5 hidden-sm-down wow fadeInLeft">
+                                    <img class="img-fluid mx-auto d-block sahi-mobile" src="images/projects/vanrakshak.png"/>
+                                </div>
+                                <div class="col-sm-6 text-white wow fadeIn">
+                                <div class="mt-5 pt-5 hidden-sm-down"></div>
+                                <h1>VanRakshak</h1>
+                                <h2>Android App <span class="text-orange">made in Smart India Hackathon 2018</span> for Government of India.</h2>
+                                <p class="mt-4 lead">
+                                    App for real time monitoring of animal and human activities in protected areas.
+                                </p>
+                                <p class="mt-5">
+                                    <a target="_blank" href="https://youtu.be/19OVUgH4rWI" type="button" class="btn btn-success btn-lg">Working Video</a>
+                                    <a target="_blank" href="https://github.com/Smart-India-Hackathon" type="button" class="btn btn-info btn-lg">Source Code</a>
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+    
             <!--2 NEWS FEEDER-->
             <section class="bg-texture hero pt-5" id="newsfeed">
                 <div class="container">
@@ -687,7 +723,32 @@
                         </div>
                     </div>
             </section>
+        
+        <!--12 ModiOnNoteAR-->
+        <section class="bg-texture-choutha hero pt-5" id="modionnotear">
+            <div class="container">
+                <div class="row d-sm-flex">
+                    <div class="col-sm-6 pt-5 hidden-sm-down wow fadeInLeft">
+                        <img class="img-fluid mx-auto d-block sahi-mobile" src="images/projects/modionnote.png"/>
+                    </div>
+                    <div class="col-sm-6 text-white wow fadeIn">
+                        <div class="mt-5 pt-5 hidden-sm-down"></div>
+                        <h1>ModiOnNote</h1>
+                        <h2>An Augmented Reality App <span class="text-orange">made in Unity.</span> Just for fun ;)</h2>
+                        <p class="mt-4 lead">
+                                This app will convert an Ordinary ₹ 500 note into an extra ordinary Modified note.
+                        </p>
+                        <p class="mt-5">
+                            <a target="_blank" href="https://youtu.be/taeZEuLIp9w" type="button" class="btn btn-success btn-lg">Working Video</a>
+                            <a target="_blank" href="https://github.com/KartikWatts/Modi-on-Note-AR" type="button" class="btn btn-info btn-lg">Source Codes</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         </div>
+        
         <script>
                 // When the user scrolls down 20px from the top of the document, show the button
                 window.onscroll = function() {scrollFunction()};

@@ -11,7 +11,7 @@ $(function () {
     $(window).scroll(function () {
         var mobile = $('.mobileapps').offset().top;
         var scroll1 = $(window).scrollTop();
-        if (scroll1 >= 1220) {
+        if (scroll1 >= 1400) {
             $('.mobileapps-sticky').css({"top": '0px'});
         } else {
             $('.mobileapps-sticky').css({"top": '-100px'});
@@ -22,7 +22,7 @@ $(function () {
     $(window).scroll(function () {
         var web = $('.webapps').offset().top;
         var scroll2 = $(window).scrollTop();
-        if (scroll2 >= 3020) {
+        if (scroll2 >= 4320) {
             $('.webapps-sticky').css({"top": '0px'});
         } else {
             $('.webapps-sticky').css({"top": '-100px'});
@@ -32,7 +32,7 @@ $(function () {
     $(window).scroll(function () {
         var web = $('.pythonprojects').offset().top;
         var scroll2 = $(window).scrollTop();
-        if (scroll2 >= 7200) {
+        if (scroll2 >= 9450) {
             $('.pythonprojects-sticky').css({"top": '0px'});
         } else {
             $('.pythonprojects-sticky').css({"top": '-100px'});
@@ -42,7 +42,7 @@ $(function () {
     $(window).scroll(function () {
         var web = $('.creativecloud').offset().top;
         var scroll2 = $(window).scrollTop();
-        if (scroll2 >= 8400) {
+        if (scroll2 >= 10900) {
             $('.creativecloud-sticky').css({"top": '0px'});
         } else {
             $('.creativecloud-sticky').css({"top": '-100px'});
@@ -52,7 +52,7 @@ $(function () {
     $(window).scroll(function () {
         var web = $('.ccppcollection').offset().top;
         var scroll2 = $(window).scrollTop();
-        if (scroll2 >= 9000) {
+        if (scroll2 >= 11700) {
             $('.ccppcollection-sticky').css({"top": '0px'});
         } else {
             $('.ccppcollection-sticky').css({"top": '-100px'});
@@ -62,7 +62,7 @@ $(function () {
     $(window).scroll(function () {
         var web = $('.unitysector').offset().top;
         var scroll2 = $(window).scrollTop();
-        if (scroll2 >= 9600) {
+        if (scroll2 >= 12400) {
             $('.unitysector-sticky').css({"top": '0px'});
         } else {
             $('.unitysector-sticky').css({"top": '-100px'});

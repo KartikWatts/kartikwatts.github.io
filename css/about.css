@@ -8,17 +8,13 @@ body{
 .aboutleft{
   padding: 10px;
   padding-top: 70px;
-  border-right-style: solid;
-  border-right-width: 1px;
-  background: linear-gradient(to right, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #3ca55c, #b5ac49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .aboutright{
   padding: 10px;
   padding-top: 70px;
-  border-left-style: solid;
-  border-left-width: 1px;
-  background-color: #ffffff;
+  background: linear-gradient(to right, #16222a, #3a6073);
 }
 .about{
   font-family: Montserrat, sans-serif;
