@@ -13,7 +13,8 @@ body{
     width:120px;
     opacity: 1;
     transition: .5s ease;
-    
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
 a:hover .logo {
