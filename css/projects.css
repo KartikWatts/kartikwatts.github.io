@@ -9,6 +9,22 @@
     background-color: orange; 
 }
 
+.new{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    -webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+@-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+
 .sahi-mobile{
     width:270px;
     max-height:470px;
