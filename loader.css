@@ -1,0 +1,120 @@
+#pre-loader {
+	box-sizing: border-box;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	z-index: 1000;
+}
+
+.logo {
+	fill: none;
+	stroke-width: 0.5em;
+	stroke-dasharray: 200;
+	stroke-dashoffset: 0;
+	transition: 0.5s all ease;
+}
+
+#first__top-left,
+#second__bottom-right,
+#second__bottom-left {
+	animation: logo-anim-rev 1.6s infinite alternate;
+}
+
+#first__top-right {
+	animation: logo-anim 1.6s infinite alternate;
+}
+
+#second__top-right {
+	animation: logo-anim-rev 1.6s infinite alternate;
+	animation-delay: 0.45s;
+}
+
+#first__bottom-right,
+#first__bottom-left,
+#second__top-left {
+	animation: logo-anim 1.6s infinite alternate;
+	animation-delay: 0.45s;
+}
+
+#line-left {
+	stroke-dasharray: 100;
+	animation: line-anim-rev 1.6s infinite alternate;
+}
+
+#line-right {
+	stroke-dasharray: 100;
+	animation: line-anim 1.6s infinite alternate;
+}
+
+@keyframes logo-anim {
+	0% {
+		stroke-width: 22;
+		stroke-dashoffset: 0;
+	}
+	25% {
+		stroke-width: 22;
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-width: 0;
+		stroke-dashoffset: 200;
+	}
+}
+
+@keyframes logo-anim-rev {
+	0% {
+		stroke-width: 22;
+		stroke-dashoffset: 0;
+	}
+	25% {
+		stroke-width: 22;
+		stroke-dashoffset: 0;
+	}
+	100% {
+		stroke-width: 0;
+		stroke-dashoffset: -200;
+	}
+}
+
+@keyframes line-anim-rev {
+	0% {
+		stroke-width: 12;
+		stroke-dashoffset: 0;
+	}
+	35% {
+		stroke-width: 12;
+		stroke-dashoffset: 0;
+	}
+	65% {
+		stroke-width: 0;
+		stroke-dashoffset: -100;
+	}
+	100% {
+		stroke-width: 0;
+		stroke-dashoffset: -100;
+	}
+}
+
+@keyframes line-anim {
+	0% {
+		stroke-width: 12;
+		stroke-dashoffset: 0;
+	}
+	35% {
+		stroke-width: 12;
+		stroke-dashoffset: 0;
+	}
+	65% {
+		stroke-width: 0;
+		stroke-dashoffset: 100;
+	}
+	100% {
+		stroke-width: 0;
+		stroke-dashoffset: 100;
+	}
+}
