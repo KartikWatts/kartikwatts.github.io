@@ -13,11 +13,11 @@ function App() {
 	useEffect(() => {
 		if (isLoading) {
 			console.log("useEffect called");
-			// fakeRequest().then(() => {
+			fakeRequest().then(() => {
 			console.log("page loaded");
 			document.querySelector("#pre-loader").classList.add("loader-fade");
 			setLoading(!isLoading);
-			// });
+			});
 		}
 	}, [isLoading]);
 
