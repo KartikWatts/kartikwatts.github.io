@@ -1,0 +1,20 @@
+.App-logo {
+	height: 100px;
+}
+
+.loader-fade {
+	transition: all 0.6s linear;
+	opacity: 0;
+}
+
+.loader-fade .loader svg {
+	animation: none !important;
+	stroke-width: 180 !important;
+	stroke: white !important;
+	transform: scale(4) rotate(-5deg);
+	overflow: visible;
+
+	.logo_path {
+		animation: none !important;
+	}
+}
