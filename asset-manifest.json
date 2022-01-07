@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a62c0624.css",
-    "main.js": "/static/js/main.5e3adc3c.js",
+    "main.css": "/static/css/main.297130cd.css",
+    "main.js": "/static/js/main.b97b5f6d.js",
     "static/js/787.975a0ab8.chunk.js": "/static/js/787.975a0ab8.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Shree_Chakra.svg": "/static/media/Shree_Chakra.af377542a4ee2154b3228df22eb0fd7c.svg",
+    "static/media/Conch.svg": "/static/media/Conch.981aa34ebf6eb2ac0f6d36f1d65c706e.svg",
+    "static/media/Veena.svg": "/static/media/Veena.fddd2c39514350f8866d13c246b39192.svg",
+    "static/media/Om.svg": "/static/media/Om.f290c77aa709dffadb062752d4ea2c14.svg",
+    "static/media/KK.svg": "/static/media/KK.211a7fcd3f5f7deb64b5d9a25965b406.svg",
+    "static/media/Swastik.svg": "/static/media/Swastik.f2e936cfc050434bf690d61df9e7d666.svg",
     "index.html": "/index.html",
-    "main.a62c0624.css.map": "/static/css/main.a62c0624.css.map",
-    "main.5e3adc3c.js.map": "/static/js/main.5e3adc3c.js.map",
+    "main.297130cd.css.map": "/static/css/main.297130cd.css.map",
+    "main.b97b5f6d.js.map": "/static/js/main.b97b5f6d.js.map",
     "787.975a0ab8.chunk.js.map": "/static/js/787.975a0ab8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62c0624.css",
-    "static/js/main.5e3adc3c.js"
+    "static/css/main.297130cd.css",
+    "static/js/main.b97b5f6d.js"
   ]
 }
