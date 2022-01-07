@@ -2,7 +2,6 @@ import React from "react";
 import kk from "../../images/KK.svg";
 
 function Navbar() {
-	let isHovered = false;
 	let isClicked = false;
 
 	return (
@@ -19,7 +18,6 @@ function Navbar() {
 				<div
 					className="menu-bar"
 					onMouseEnter={() => {
-						isHovered = true;
 						let bars = [...document.querySelectorAll(".bar")];
 						if (!isClicked) {
 							bars[0].style.transform =
@@ -28,7 +26,6 @@ function Navbar() {
 						}
 					}}
 					onMouseLeave={() => {
-						isHovered = false;
 						let bars = [...document.querySelectorAll(".bar")];
 						if (!isClicked) {
 							bars[0].style.transform = "translateY(0)";
