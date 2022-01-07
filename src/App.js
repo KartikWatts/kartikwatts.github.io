@@ -1,22 +1,30 @@
-import logo from "./logo.svg";
 import "./App.scss";
-import Loader from "./Loader";
+import Loader from "./components/loader/Loader";
 import { useEffect, useState } from "react";
+import Background from "./components/background/Background";
+import Kartik from "./components/background/Kartik";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
 	const [isLoading, setLoading] = useState(true);
 
 	function fakeRequest() {
-		return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+		// return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+		return new Promise((resolve) => setTimeout(() => resolve(), 0));
 	}
 
 	useEffect(() => {
 		if (isLoading) {
 			console.log("useEffect called");
 			fakeRequest().then(() => {
-			console.log("page loaded");
-			document.querySelector("#pre-loader").classList.add("loader-fade");
-			setLoading(!isLoading);
+				console.log("page loaded");
+				document
+					.querySelector("#pre-loader")
+					.classList.add("loader-fade");
+				setLoading(!isLoading);
+				setTimeout(() => {
+					document.querySelector("#pre-loader").remove();
+				}, 500);
 			});
 		}
 	}, [isLoading]);
@@ -24,14 +32,10 @@ function App() {
 	return (
 		<>
 			<Loader />
-			<div className="App">
-				<header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-					<h3>
-						Under Development. <br />
-						Regards, Kartik Watts
-					</h3>
-				</header>
+			<div>
+				<Background />
+				<Navbar />
+				<div className="brand-layer">{!isLoading && <Kartik />}</div>
 			</div>
 		</>
 	);
