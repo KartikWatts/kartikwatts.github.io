@@ -1664,6 +1664,17 @@ footer ul > li ul > li {
 .footer-logo {
 	width: 400px;
 }
+
+@media only screen and (max-width: 425px) {
+	.footer-logo {
+		width: 250px;
+		margin-bottom: 20px;
+	}
+	#team-img-wrapper img {
+		width: 350px !important;
+	}
+}
+
 #projekte-filter li {
 	display: inline-block;
 	margin-right: 15px;
@@ -2704,6 +2715,7 @@ footer .awards img {
 	#team-img-wrapper img {
 		width: 700px;
 	}
+
 	footer .social-icons {
 		text-align: left;
 		margin-top: 20px;
