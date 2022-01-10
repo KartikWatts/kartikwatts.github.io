@@ -2454,10 +2454,19 @@ footer .awards img {
 		padding: 15px;
 		counter-increment: carousel-cell;
 	}
+	.footer-logo {
+		margin-bottom: 20px;
+	}
+}
+#team-img-wrapper img {
+	width: 90vw;
 }
 @media (max-width: 840px) {
 	#project-navigation .container {
 		padding: 0 10%;
+	}
+	#team-img-wrapper img {
+		width: 750px;
 	}
 }
 @media (max-width: 767px) {
@@ -2571,7 +2580,11 @@ footer .awards img {
 		svg {
 		right: -10px;
 	}
+	#team-img-wrapper img {
+		width: 575px;
+	}
 }
+
 @media (max-width: 600px) {
 	body,
 	html {
@@ -2713,7 +2726,7 @@ footer .awards img {
 		padding: 60px 20px 0 0;
 	}
 	#team-img-wrapper img {
-		width: 700px;
+		width: 425px;
 	}
 
 	footer .social-icons {
