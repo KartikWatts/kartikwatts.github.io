@@ -358,7 +358,6 @@ section .content p {
 	overflow: hidden;
 }
 body.error404 #site-background .layer-wrapper {
-	background-image: url(/wp-content/themes/dp/img/404.gif);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -895,6 +894,13 @@ footer .social-icons a svg {
 .no-touch footer .social-icons a.github:hover svg {
 	fill: black;
 }
+
+.no-touch #navi #canvas-nav .social-icons a.linkedin:hover svg,
+.no-touch .full-section .socialicons a.linkedin:hover svg,
+.no-touch footer .social-icons a.linkedin:hover svg {
+	fill: #0966c2;
+}
+
 .no-touch #navi #canvas-nav .social-icons a.stack-overflow:hover svg,
 .no-touch .full-section .socialicons a.stack-overflow:hover svg,
 .no-touch footer .social-icons a.stack-overflow:hover svg {
@@ -2332,7 +2338,6 @@ footer .awards img {
 		height: 100%;
 	}
 	#site-background .layer-wrapper {
-		background-image: url(/wp-content/themes/dp/img/bg/background.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		height: 100vh;
