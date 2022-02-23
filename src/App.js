@@ -8,6 +8,9 @@ import Navbar from "./components/navbar/Navbar";
 function App() {
 	const [isLoading, setLoading] = useState(true);
 
+	// REDIRECT TO DEV FOR NOW
+	window.location.href = "https://kartikwatts.github.io/dev";
+
 	function fakeRequest() {
 		// return new Promise((resolve) => setTimeout(() => resolve(), 2500));
 		return new Promise((resolve) => setTimeout(() => resolve(), 0));
@@ -31,12 +34,12 @@ function App() {
 
 	return (
 		<>
-			<Loader />
+			{/* <Loader />
 			<div>
 				<Background />
 				<Navbar />
 				<div className="brand-layer">{!isLoading && <Kartik />}</div>
-			</div>
+			</div> */}
 		</>
 	);
 }
