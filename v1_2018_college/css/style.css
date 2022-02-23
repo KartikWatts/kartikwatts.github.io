@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+.social ul li{
+  list-style:none;
+  padding-left:12px;
+  color:white;
+}
+li a{
+ text-decoration:none;
+}
+.social ul{
+  display:inline-flex;
+  padding-left: 60px;
+}
+
+body{
+    background: linear-gradient(to left, #314755, #26a0da);
+    animation: bodycolor 150s infinite;
+    
+}
+  
+@keyframes bodycolor {
+    0%   {background: linear-gradient(to left, #314755, #26a0da);}    
+    20%  {background: linear-gradient(to left, #2b5876, #4e4376);}
+    40%  {background: linear-gradient(to top, #cc2b5e, #753a88);}
+    60%  {background: linear-gradient(to left, #23074d, #cc5333);}
+    80%  {background: linear-gradient(to right, #cb356b, #bd3f32);}
+    100% {background: linear-gradient(to left, #283c86, #45a247);}
+  }
+
+ 
