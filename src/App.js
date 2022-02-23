@@ -1,9 +1,9 @@
 import "./App.scss";
-import Loader from "./components/loader/Loader";
+// import Loader from "./components/loader/Loader";
 import { useEffect, useState } from "react";
-import Background from "./components/background/Background";
-import Kartik from "./components/background/Kartik";
-import Navbar from "./components/navbar/Navbar";
+// import Background from "./components/background/Background";
+// import Kartik from "./components/background/Kartik";
+// import Navbar from "./components/navbar/Navbar";
 
 function App() {
 	const [isLoading, setLoading] = useState(true);
