@@ -1118,7 +1118,7 @@ footer .social-icons a svg {
 }
 .full-section .socialicons {
   position: absolute;
-  bottom: 60px;
+  bottom: 120px;
   left: 92px;
   display: block;
 }
@@ -2216,7 +2216,7 @@ footer .awards img {
     bottom: 35px;
   }
   .full-section .socialicons {
-    bottom: 30px;
+    bottom: 120px;
     left: 42px;
   }
   #siegel .container > div {
@@ -2299,7 +2299,7 @@ footer .awards img {
     right: -50px;
   }
   .full-section .socialicons {
-    bottom: 10px;
+    bottom: 120px;
     left: 32px;
   }
   .bx-wrapper .bx-controls-auto,
